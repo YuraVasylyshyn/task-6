@@ -1,0 +1,94 @@
+
+
+body {
+  align-content: center;
+  background-color: rgb(255, 203, 161);
+}
+
+
+.poster{
+  width: 400px;
+  height: 300px;
+  margin:5px 0 5px 0;
+  border-radius: 100px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items:  center;
+}
+
+ul{
+  list-style: none;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+ul li {
+  font-size: 30px;
+}
+
+.container h2{
+  margin: 0px;
+  font-size: 40px;
+  color: rgb(88, 140, 138);
+}
+
+
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+nav ul li {
+  padding: 10px 0 0 0px;
+  font-size: 50px;
+}
+
+nav a{
+  color: #63391d;
+  text-decoration: none;
+  font-family: 'Squada One', cursive
+}
+
+.active a{
+  color: red;
+  border: solid 4px black;
+}
+
+footer img{
+  height: 175px;
+  width: 175px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .container a {
+  text-decoration: none; 
+  color: rgb(90, 81, 138);
+}
+
+.container a:hover {
+  color:white;
+}
